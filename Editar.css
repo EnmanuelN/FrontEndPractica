@@ -1,0 +1,95 @@
+body{
+    background-color: yellowgreen;
+    font-family: cursive;
+}
+.edit{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(120deg,rgba(235, 208, 212, 0.68),rgb(209, 177, 177)), url(img/Fondo.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: darkgreen;
+}
+.edit-text{
+    color: darkgreen;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 2px,2px white;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: yellowgreen;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: red;
+    color: yellow;
+}
+main div {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+}
+.conte{
+    background-color: rgba(95, 6, 6, 0.3);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0,0,10px rgba(0,0,0,0.2)
+}
+.conte h2{
+    color: #1b8c1b;
+}
+
+
+.multimedia {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(240, 240, 240, 0.4);
+    border-radius: 10px;
+    text-align: center;
+}
+.multimedia img,
+.multimedia video {
+    max-width: 90%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+.multimedia h2 {
+    color: #333;
+}
+.pie-pagina {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.pie-pagina a {
+    color: rgb(96, 96, 53);
+    text-decoration: none;
+}
+.pie-pagina a:hover {
+    color: red;
+}
+
+

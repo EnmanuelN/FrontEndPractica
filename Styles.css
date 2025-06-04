@@ -1,0 +1,80 @@
+/* aca simplemente colocamos un . y el nmbre de la variable y el color o el estilo */
+.title{background-color: gray;}
+/* el * sirve para cambiar toda la web */
+*{
+    padding: 5 ;
+    margin: 0;
+}
+body{
+    background-color: rgb(27, 142, 92) !important;
+    font-family: cursive;
+}
+.hero{
+    /* alto puede ser en pixeles o en porcentaje y muchas mas asi igualmete para el ancho */
+    height: 450px;
+    width: 100%;
+    background-image: linear-gradient(120deg,rgba(235, 208, 212, 0.68),rgb(209, 177, 177)),url(img/18377-1000x667.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+.hero-text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 2px,2px white;
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+    background-color: black;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: red;
+    color: white;
+
+}
+main div{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.Contendo{
+    margin: 10px;
+    background-color: rgb(14, 137, 65);
+    text-align: center;
+}
+.ContenedorK{
+    /* establece los tipos de visualizacion */
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    box-shadow: rgb(14, 137, 65);
+    width: 30%;
+    text-align: center;
+    transform: scale(1) ;
+    transition: transform 0.65;
+}
+.card:hover{
+    box-shadow: o o 6px gray;
+    transform: scale(1);
+}
+

@@ -1,0 +1,98 @@
+<!-- DOCTYPE indica el tipo de documento  -->
+<!DOCTYPE html>
+<!-- html idica el inicio de la web, lang es el idioma de la web -->
+<html lang="es">
+    <!-- head es el encabezado, no es visible en las pagnia -->
+    <head>
+        <!-- title es el titulo de la web, y se ve en la pestaña -->
+        <title>Mi Web</title>
+        <meta charset="iso-8859-1"/>
+        <link href="Styles.css"rel="stylesheet"/>
+    </head>
+    <!--  body es todo lo que se muestra la pagina -->
+    <!-- esta froma de usar el style no es recomendble porque es   -->
+    <body>
+        <!--  header es el encabezado de la pagina -->
+        <!-- el atributo calss sirve para los estilos -->
+        <header class="hero">
+            <div class="hero-text">
+                <h1>Mi pagina web</h1>
+                <!-- class es sobre css en otra libreria por asi decirlo -->
+                <h3>Utilizando html para crear webs</h3>
+            </div>
+        </header>
+        <!-- nav es la etiqueta de html para el menu -->
+        <nav>        <!-- ul es una lista ordenada -->
+            <a href="#galeria">Ir a Galería</a>
+            <a href="#contacto">Ir a Contacto</a>
+            <ul>
+                <!-- li corresponde a los item de la lista -->
+                <li><a href="http://127.0.0.2:5500/index.html"target="_blank">Inicio</a></li>
+                <!-- tag a sirve para hipervinculos, href es un atributo del tag y sirve para redireccionar -->
+                <li><a href="https://portal.inacap.cl/" target="_blank">Inacap</a></li>
+                <li><a href="https://www.google.cl/"target="_blank">Google</a></li>
+                <li><a href="https://www.w3schools.com/"target="_blank">W3Sscholl</a></li>
+                <li><a href="https://chatgpt.com/"target="_blank">ChatGPT</a></li>
+                <li><a href=""></a></li>
+            </ul>
+            <!-- ol lista numerada -->
+        </nav>
+        <!-- main es el contenido de la pagina -->
+        <main>
+            <!-- div es un contenedor auxiliar -->
+            <div class="Contendo">
+                <h2>contenido</h2>
+                <p>Este es el inico de Frond End</p>
+            </div>
+            <!-- seccion de fotos -->
+            <section>
+                <h2>Clase de prorgamacion</h2>
+                <div class="ContenedorK">
+                    <div class="card">
+                        <i></i>
+                        <h3>frotend</h3>
+                        <p>Definicon de FrotEnd</p>
+                        <a href="">Mas informacions</a>
+                    </div>
+                    <div class="card">
+                        <i></i>
+                        <h3>BackEnd</h3>
+                        <p>Definicon de BackEnd</p>
+                        <a href="">Mas informacions</a>
+                    </div>
+                    <div class="card">
+                        <i></i>
+                        <h3>FullStack</h3>
+                        <p>Definicon de FullStack</p>
+                        <a href="">Mas informacions</a>
+                    </div>
+                </div>
+            </section>
+            <div>
+                <H1>Galeria de fotos y videos</H1>
+            </div>
+            <div>
+                <!-- img es la etiqueta para mostrar imagenes, tiene como atributos src que sirve para poner la 
+                dirrecion de la imagen y alt muestra un texto altenartio por si no se ve la imagen, width es el
+                ancho de la imagen y heigth que es el alto de la imagen -->
+                <img src="img/img1.webp" alt="Aqui debe haber una foto" width="18%" height="100%">
+                <img src="img/18377-1000x667.jpg.webp" alt="Pirnto estara aqui" width="25%" height="100%">
+            </div>
+            <!-- Videos -->
+            <div>
+                <!-- video es el tag para añadir videos a mi web, controls permite ver los controles del video, autoplay
+                para que se reproduzca solo, width para el acho, heigth para el alto y tambin tenemos mute para mutearlo< -->
+                <video src="video/las-jugadas-más-alucinantes-de-lionel-messi-humillando-rivales.mp4" controls muted width="350"></video>
+                <!-- br es un etiqueta para saltar -->
+                <br>
+                <iframe src="https://es.wikipedia.org/wiki/Wikipedia:Portada" frameborder="5" height="500" width="500"></iframe>
+            </div>
+            <div>
+                <!-- audio -->
+                <audio src=""></audio>
+            </div>
+        </main>
+        <!-- footer es el pie de la pagina -->
+        <footer></footer>
+    </body>
+</html>
